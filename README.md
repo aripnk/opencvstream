@@ -1,8 +1,11 @@
 # OpenCV Video Stream
 
 Open camera and then send each frame through UDP socket.
+
 Client : Read camera -> convert to jpg -> encode to base64 -> send base64 data
+
 Server : Event -> get data -> decode base64 -> show frame data
+
 # Requirements
   - OpenCV 2.4
   - Libevent
